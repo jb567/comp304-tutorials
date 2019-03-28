@@ -6,8 +6,6 @@
 \begin{document}
 \section{COMP304 Week 4 Exercises}
 
-\subsection*{About Commenting your code}
-
 \subsection*{Previous Week}
 
 \subsubsection{Ex 2}
@@ -41,6 +39,9 @@ lower than the guess.
 Write a function to reverse the order of a list
 
 < reverse :: [a] -> [a]
+
+
+\section{This Week}
 
 \subsection{Ex 1}
 
