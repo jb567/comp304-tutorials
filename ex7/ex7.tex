@@ -1,0 +1,32 @@
+\documentclass{article}
+\title{Exercise 7}
+\begin{document}
+\maketitle
+\section{A note on Maths in Prolog}
+
+Maths in prolog is weird, simple assignment of mathematics doesn't work because
+arithmetic is considered a separate data type. In order to assign the result of
+an equation you have to use the keyword \verb|is|
+
+\section{Ex 1}
+
+Make a simple calculator which prints out the result of a formula (Hint: use
+\verb|write/1|)
+
+\verb|calc(X)|
+
+\section{Ex 2}
+
+Make a \verb|split| relationship which is true when a given list is split into 2
+sublists
+
+\verb|split/3|
+
+\section{Ex 3}
+
+Make a predicate which holds when all the elements of a list are positive (i.e.
+\textbf{greater} than 0)
+
+\verb|positives/1|
+
+\end{document}
